@@ -5,13 +5,19 @@ header{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat( 2,100px);
 }
-nav{
+header nav{
     grid-column: 1/3;
     grid-row:  2/3;
 }
-img{
+header img{
     grid-column: 2/3;
     grid-row: 1/2;
     height: 50px;
     width: 50px;
+}
+.conceptOfTheDay img{
+    width: 300px;
+}
+.featuredConcepts-concept img{
+    width: 400px;
 }
