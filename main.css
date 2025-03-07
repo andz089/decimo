@@ -21,3 +21,26 @@ header img{
 .featuredConcepts-concept img{
     width: 400px;
 }
+.conceptIcons1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:    center;
+}
+.conceptIcons1 a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color:#000;
+
+}
+.conceptIcons1 img{
+    width: 50px;
+}
+.conceptIcons1 span{
+    grid-column: 2/4;
+}
