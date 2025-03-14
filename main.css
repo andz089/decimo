@@ -21,6 +21,13 @@ header img{
 .featuredConcepts-concept img{
     width: 400px;
 }
+.featuredConcepts-concept{
+    display: grid;
+    grid-template-columns: repeat(5, 3fr) ;
+    align-items: center;
+    justify-items: center
+
+}
 .conceptIcons1 {
     width: 100%;
     display: flex;
@@ -43,4 +50,33 @@ header img{
 }
 .conceptIcons1 span{
     grid-column: 2/4;
+}
+.conceptIcons2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:    center;
+}
+.conceptIcons2 a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color:#000;
+
+}
+.conceptIcons2 img{
+    width: 50px;
+}
+.conceptIcons2 span{
+    grid-column: 2/4;
+}
+footer section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center
+ 
 }
