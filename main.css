@@ -18,16 +18,47 @@ header img{
 .conceptOfTheDay img{
     width: 300px;
 }
-.featuredConcepts-concept img{
-    width: 400px;
-}
-.featuredConcepts-concept{
-    display: grid;
-    grid-template-columns: repeat(5, 3fr) ;
+.featuredConcepts-content{ 
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-items: center
+}
+.featuredConcepts-concept img{
+    width: inherit;
+    border-radius: 20px;
 
 }
+.featuredConcepts-concept{
+    width:350px;
+    height: 450px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: start;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.featuredConcepts-concept h4{
+    margin-left:20px ;
+    font-size: 25px;
+    margin-bottom: 1px;
+ 
+}
+.featuredConcepts-concept p{
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+.featuredConcepts-concept button{
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+
 .conceptIcons1 {
     width: 100%;
     display: flex;
